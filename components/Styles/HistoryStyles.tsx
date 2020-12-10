@@ -1,0 +1,62 @@
+import { StyleSheet } from 'react-native'
+
+export const HistoryStyles = StyleSheet.create({
+    container: { flex: 1, backgroundColor: '#FFF' },
+    title: {
+      fontSize: 20,
+      fontWeight: 'bold',
+    },
+    separator: {
+      marginVertical: 30,
+      height: 1,
+      width: '80%',
+    },
+    logo: {
+      fontWeight: 'bold',
+      fontSize: 50,
+      color: 'black',
+      marginBottom: 40,
+    },
+    Heading: {
+      flex: 1,
+      color: '#8EC064',
+      alignItems: 'flex-start',
+      textAlign: 'center',
+      justifyContent: 'center',
+      fontWeight: 'bold',
+      fontSize: 36,
+      marginBottom: 5,
+      marginTop: 10,
+    },
+    sectionText: {
+      flex: 1,
+      color: '#000',
+      alignItems: 'center',
+      textAlign: 'center',
+      width: '90%',
+      marginLeft: 16,
+      justifyContent: 'center',
+      //fontFamily: 'Verdana',
+      fontWeight: 'normal',
+      fontSize: 14,
+      marginBottom: 20,
+    },
+    sectionCard: {
+      backgroundColor: '#8EC064',
+      borderColor: '#8EC064',
+      borderRadius: 25,
+      shadowRadius: 25,
+    },
+    descriptionText: {
+      flex: 1,
+      fontWeight: 'bold',
+      //fontFamily: 'Verdana',
+      alignSelf: 'center',
+      textAlign: 'center',
+      color: '#8EC064',
+      width: '80%',
+      fontSize: 20,
+      marginBottom: 0,
+      marginTop: 100,
+    },
+  })
